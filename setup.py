@@ -9,14 +9,14 @@ with open(path.join(here, "README.md"), encoding="utf-8") as f:
     long_description = f.read()
 
 setup(
-    name="Template Python",
+    name="litecoinrpc",
     version="0.0.1",
-    description="Bitwyre Python Repo Template",
+    description="Litecoin RPC",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/bitwyre/template-python",
-    author="Bitwyre Technologies LLC",
-    author_email="dev@bitwyre.com",
+    url="https://github.com/bitwyre/python-litecoinrpc",
+    author="Jeff Garzik, Bitwyre Technologies LLC",
+    author_email="jgarzik@pobox.com, dev@bitwyre.com",
     classifiers=[
         "Development Status :: 3 - Alpha",
         "Intended Audience :: Developers",
@@ -32,11 +32,10 @@ setup(
     python_requires="!=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*, <4",
     install_requires=[],  # Optional
     extras_require={"dev": ["check-manifest", "pep8", "mypy"], "test": ["coverage", "pytest"]},
-    entry_points={"console_scripts": ["template_python=template_python:cli"]},
     project_urls={
-        "Bug Reports": "https://github.com/bitwyre/template-python/issues",
+        "Bug Reports": "https://github.com/bitwyre/python-litecoinrpc/issues",
         "Funding": "https://bitwyre.com",
         "Say Thanks!": "http://bitwyre.gives",
-        "Source": "https://github.com/bitwyre/template-python",
+        "Source": "https://github.com/bitwyre/python-litecoinrpc/",
     },
 )

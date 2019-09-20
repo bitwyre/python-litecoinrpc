@@ -3,5 +3,5 @@
 # setup.py that excludes installing the "tests" package
 
 
-def test_success():
+def test_litecoin_compatibility():
     assert True

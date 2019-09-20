@@ -4,25 +4,21 @@
   </a>
 </p>
 
-![Workflow Status](https://github.com/bitwyre/template-python/workflows/Python%20Package/badge.svg)
+![Workflow Status](https://github.com/bitwyre/python-litecoinrpc/workflows/Python%20Package/badge.svg)
 
-# Repo/Module Name Here
+# Python Litecoin RPC
 
-This is the template for Python Repository.
-
-## Running in Development Mode
-
-```sh
-$ run.sh --dev
-```
+This is the template for Python Litecoin RPC.
 
 # Authors
 
-[Bitwyre](https://github.com/bitwyre)
+* [Jeff Garzik](https://github.com/jgarzik)
+* [Bitwyre](https://github.com/bitwyre)
 
 ## Contributors
 
-[Bitwyre](https://github.com/bitwyre)
+* [Jeff Garzik](https://github.com/jgarzik)
+* [Bitwyre](https://github.com/bitwyre)
 
 # Copyright
 
